@@ -1,0 +1,76 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\IT Vedant\Dmart> git init
+Reinitialized existing Git repository in D:/IT Vedant/Dmart/.git/
+PS D:\IT Vedant\Dmart> git add .
+PS D:\IT Vedant\Dmart> git config --global user.name "Pradeepgithub-25"
+PS D:\IT Vedant\Dmart> git config --global user.email "pradeepkumar2571999@gmail.com"
+PS D:\IT Vedant\Dmart> git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Pradeepgithub-25
+user.email=pradeepkumar2571999@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Pradeepgithub-25/Dmart-Sales-analysis
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+PS D:\IT Vedant\Dmart> git commit -m "add my file"
+[master (root-commit) 11a4bf2] add my file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Excel+LAB+1+Dataset_Dmart.xlsx
+PS D:\IT Vedant\Dmart> git remote add origin https://github.com/Pradeepgithub-25/Dmart-Sales-analysis
+error: remote origin already exists.
+PS D:\IT Vedant\Dmart> git remote remove origin
+PS D:\IT Vedant\Dmart> git remote add origin https://github.com/Pradeepgithub-25/Dmart-Sales-analysis
+PS D:\IT Vedant\Dmart> git remote -V
+error: unknown switch `V'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+PS D:\IT Vedant\Dmart> git remote -v
+origin  https://github.com/Pradeepgithub-25/Dmart-Sales-analysis (fetch)
+origin  https://github.com/Pradeepgithub-25/Dmart-Sales-analysis (push)
+PS D:\IT Vedant\Dmart> git branch -M main
+PS D:\IT Vedant\Dmart> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.12 MiB | 1.14 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pradeepgithub-25/Dmart-Sales-analysis
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\IT Vedant\Dmart> S
